@@ -1,8 +1,8 @@
-version: "3.9"
+version: "3"
 services:
-  web:
-    build: .
+  web-server:
+    build:
+      context: ./web
     ports:
-      - "8000:8000"
-  redis:
-    image: "redis:alpine"
+      - 80:6000
+    container-name: agile-web
