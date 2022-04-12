@@ -5,4 +5,3 @@ services:
       context: ./web
     ports:
       - 80:6000
-    container-name: agile-web
