@@ -2,6 +2,6 @@ version: "3"
 services:
   web-server:
     build:
-      context: ./web
+      context: ./website
     ports:
       - 80:6000
