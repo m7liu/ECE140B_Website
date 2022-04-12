@@ -4,4 +4,6 @@ services:
     build:
       context: ./web
     ports:
-      - 80:6000
+      - 8000:5000
+  redis: 
+    image: "redis:alpine"
