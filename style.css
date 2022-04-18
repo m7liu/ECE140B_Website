@@ -2,6 +2,16 @@ html {
   height: 100%;
 }
 
+h2{
+  color: black;
+  margin-left: center;
+  font-size: 5em;
+    text-shadow: -5px 5px 0px rgba(0,0,0,0.7);
+    text-align: center;
+    font-family: monospace;
+  font-weight: bold;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.whoi.edu/wp-content/uploads/2021/07/graphics-SIPEX_P_Kimball-f16433856-c.jpg");
   height: 100%;
@@ -51,9 +61,10 @@ html {
 .text {
   position: relative;
   height: 100%;
-  background-image: url(https://st2.depositphotos.com/2448349/11219/v/450/depositphotos_112190864-stock-illustration-notebook-background-paper-in-line.jpg);
-  background-repeat: round;
-  background-size: auto;
+  background-image: url(https://lh3.googleusercontent.com/1QGhjlrmlpSlCFizq8g4Xw_CLO6fmUl_kHxDAybxyKm9TlvQMSVgE5Ea6lpgOPLGlSyue_e8HB1bHoHVnxb1TauEOEcYR4SLVXKbJRIgHqXZCVrvgqRu5lRV8-h4fITQN0pze2Ix5A=w2400);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  resize: both;
 }
 
 .text h2{
@@ -68,7 +79,7 @@ html {
 .text h3{
   color: black;
     margin-left: center;
-  font-size: 2em;
+  font-size: 2rem;
     font-family: monospace;
   font-weight: bold;
 }
@@ -77,7 +88,7 @@ html {
   color:black;
   margin-left: center;
   line-height: 2em;
-  font-size: 2em;
+  font-size: 2rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -95,8 +106,15 @@ html {
   color: skyblue;
 }
 
+.bar img {
+  text-decoration: none;
+  display: block;
+  color: skyblue;
+}
+
 .bar p {
   display: block;
   color:black;
-  font-size: 1em;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
