@@ -2,8 +2,6 @@ html {
   height: 100%;
 }
 
-
-
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.whoi.edu/wp-content/uploads/2021/07/graphics-SIPEX_P_Kimball-f16433856-c.jpg");
   height: 100%;
@@ -51,6 +49,7 @@ html {
 }
 
 .text {
+  position: relative;
   height: 100%;
   background-image: url(https://st2.depositphotos.com/2448349/11219/v/450/depositphotos_112190864-stock-illustration-notebook-background-paper-in-line.jpg);
   background-repeat: repeat-y;
@@ -83,6 +82,7 @@ html {
 }
 
 .bar {
+  position: relative;
   display: flex;
   gap: 1em;
   gap: 1em 1.5em;
