@@ -82,7 +82,6 @@ html {
 }
 
 .bar {
-  position: relative;
   display: flex;
   gap: 1em;
   gap: 1em 1.5em;
@@ -91,8 +90,12 @@ html {
 }
 
 .bar a {
-  position: relative;
   text-decoration: none;
   display: block;
   color: skyblue;
+}
+
+.bar p {
+  display: block;
+  color:aquamarine;
 }
