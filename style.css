@@ -91,6 +91,7 @@ html {
 }
 
 .bar a {
+  position: relative;
   text-decoration: none;
   display: block;
   color: skyblue;
