@@ -82,7 +82,7 @@ html {
 }
 
 .bar {
-  display: flex;
+  display: inline-flex;
   gap: 1em;
   gap: 1em 1.5em;
   row-gap: 1em;
@@ -97,5 +97,6 @@ html {
 
 .bar p {
   display: block;
-  color:aquamarine;
+  color:black;
+  font-size: 1em;
 }
