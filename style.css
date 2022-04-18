@@ -52,7 +52,7 @@ html {
   position: relative;
   height: 100%;
   background-image: url(https://st2.depositphotos.com/2448349/11219/v/450/depositphotos_112190864-stock-illustration-notebook-background-paper-in-line.jpg);
-  background-repeat: repeat-y;
+  background-repeat: round;
   background-size: cover;
 }
 
