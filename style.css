@@ -2,6 +2,10 @@ html {
   height: 100%;
 }
 
+a {
+  font-size: 3em;
+}
+
 h2{
   color: black;
   margin-left: center;
