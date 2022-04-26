@@ -2,11 +2,21 @@ html {
   height: 100%;
 }
 
-a {
-  font-size: 3em;
+section{
+  min-height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
 }
-
-h2{
+section h1{
+  color:black;
+  font-size:5em;
+  text-shadow: -5px 5px 0px bisque;
+  font-family: monospace;
+  font:italic;
+}
+section h2{
   color: black;
   margin-left: center;
   font-size: 5em;
@@ -16,9 +26,35 @@ h2{
   font-weight: bold;
 }
 
+section .text-container{
+  display: flex;
+}
+
+section .text-container .text-box{
+  margin:1rem;
+  padding:2rem;
+  background-color: bisque;
+}
+
+section p{
+  text-align: left;
+  display: block;
+  color:black;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+  font-size: 3em;
+}
+
+
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.whoi.edu/wp-content/uploads/2021/07/graphics-SIPEX_P_Kimball-f16433856-c.jpg");
   height: 100%;
+  min-height:70rem;
+  display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,11 +101,11 @@ h2{
 .text {
   position: relative;
   height: 100%;
-  background-image: url(https://lh3.googleusercontent.com/1QGhjlrmlpSlCFizq8g4Xw_CLO6fmUl_kHxDAybxyKm9TlvQMSVgE5Ea6lpgOPLGlSyue_e8HB1bHoHVnxb1TauEOEcYR4SLVXKbJRIgHqXZCVrvgqRu5lRV8-h4fITQN0pze2Ix5A=w2400);
   background-repeat: repeat-y;
   background-size: 100% auto;
   resize: both;
 }
+
 
 .text h2{
   color: black;
@@ -89,36 +125,52 @@ h2{
 }
 
 .text p{
+  text-align: center;
   color:black;
   margin-left: center;
-  line-height: 2em;
   font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
-.bar {
-  display: inline-flex;
-  gap: 1em;
-  gap: 1em 1.5em;
-  row-gap: 1em;
-  column-gap: 2em;
+.text .text-box{
+  margin:1rem;
+  padding:2rem;
+  background-color: slategrey;
 }
 
-.bar a {
-  text-decoration: none;
-  display: block;
-  color: purple;
+.text .text-container{
+  margin: 1.5rem;
+  padding:2rem;
+  background-color: blanchedalmond;
 }
 
-.bar img {
-  text-decoration: none;
-  display: block;
-  color: skyblue;
+.navigation-bar{
+  overflow:hidden;
+  background-color: black;
 }
 
-.bar p {
-  display: block;
-  color:black;
+.navigation-bar a{
+  float:left;
   font-size: 2rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding:0.5rem 0.5rem;
+}
+
+.navigation-bar a:hover{
+  background-color: royalblue;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
